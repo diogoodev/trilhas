@@ -4,3 +4,7 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 
 ## Semana #1
 - [Arquivo da Semana #1](semana-1/index.html)
+
+## Semana #2
+- [Arquivo da Semana #1]
+- [Aplicação da Semana #1]
