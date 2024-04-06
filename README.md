@@ -6,5 +6,5 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 - [Arquivo da Semana #1](semana-1/index.html)
 
 ## Semana #2
-- [Arquivo da Semana #1]
-- [Aplicação da Semana #1]
+- [Arquivos da Semana #2](semana-2/README.md)
+- [Desafio 1](desafios/desafio1/README.md)
