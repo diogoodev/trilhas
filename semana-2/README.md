@@ -9,8 +9,8 @@ Crie manipulações de palavras e números de forma dinâmica com JavaScript
 - [Funções](2_funcoes/index.html)
     - [Desafio2](2_funcoes/desafio2/script.js)
 - [Reiniciando o jogo](3_reiniciando_o_jogo/index.html)
-    - [Desafio2](3_reiniciando_o_jogo/desafio3/script.js)
+    - [Desafio3](3_reiniciando_o_jogo/desafio3/script.js)
 - [Listas](4_listas/index.html)
-    - [Desafio2](4_listas/desafio4/script.js)
+    - [Desafio4](4_listas/desafio4/script.js)
 
 - [Publicando o projeto](5_publicando_o_projeto/index.html)
