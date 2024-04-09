@@ -8,3 +8,6 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 ## Semana #2
 - [Arquivos da Semana #2](semana-2/README.md)
 - [Desafio 1](desafios/desafio1/README.md)
+
+## Semana #3
+- [Arquivos da Semana #3](semana-3/README.md)
