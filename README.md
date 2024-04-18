@@ -11,3 +11,9 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 
 ## Semana #3
 - [Arquivos da Semana #3](semana-3/README.md)
+
+## Semana #4
+- Revisão do conteudo das semanas anteriores
+  
+## Semana #5
+- [Arquivos da Semana #5](semana-5/README.md)
