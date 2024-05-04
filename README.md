@@ -17,3 +17,6 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
   
 ## Semana #5
 - [Arquivos da Semana #5](semana-5/README.md)
+
+## DESAFIO 2
+- [Desafio 2](desafios/desafio2/README.md)
