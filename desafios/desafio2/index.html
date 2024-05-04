@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trilhas Forms</title>
+</head>
+<body class="container">
+    <!-- Esboço do Projeto: Página de Inscrição
+    Processo de Inscrição:
+    Acesso à Página de Inscrição:
+    O usuário acessa a página de inscrição através de um link disponibilizado pelo Governo do estado do Maranhão, pela Secretaria de Ciências, Tecnologia e Inovação (SECTI) ou pela FAPEMA.
+    Introdução ao Programa:
+    Na página de inscrição, o usuário é recebido com uma introdução breve sobre o programa de formação em tecnologia oferecido pelo Governo do estado do Maranhão, destacando seus objetivos e benefícios.
+    Formulário de Inscrição:
+    O usuário preenche um formulário de inscrição com seus dados pessoais, incluindo nome completo, data de nascimento, CPF, endereço, telefone de contato e e-mail.
+    Informações Acadêmicas:
+    O usuário fornece informações sobre sua formação acadêmica, incluindo nível de escolaridade, curso atual (se aplicável) e instituição de ensino.
+    Experiência Profissional (Opcional):
+    Há a opção para o usuário fornecer informações sobre sua experiência profissional, caso possua.
+    Áreas de Interesse:
+    O usuário seleciona suas áreas de interesse dentro da tecnologia, como desenvolvimento web, ciência de dados, inteligência artificial, entre outras opções disponíveis.
+    Termos e Condições:
+    O usuário revisa e concorda com os termos e condições do programa de formação, incluindo critérios de elegibilidade, compromissos e responsabilidades do participante.
+    Confirmação da Inscrição:
+    Após revisar todas as informações fornecidas, o usuário confirma sua inscrição no programa. -->
+    <nav>
+        <ul>
+            <li><a href="#fieldset1">Introdução ao Programa</a></li>
+            <li><a href="#fieldset2">Contato</a></li>
+            <li><a href="#fieldset4">Termos e Condições</a></li>
+        </ul>
+    </nav>
+
+    <div id="fieldset1">
+      <fieldset>
+        <h1>Bem-vindo ao Programa Trilhas: Explorando o Mundo da Tecnologia!</h1>
+        <p>Nossa missão é clara: capacitamos indivíduos para atender às demandas locais, nacionais e internacionais da indústria tecnológica. Além disso, buscamos incitar o empreendedorismo e fortalecer a empregabilidade, impulsionando assim um impacto social e econômico significativo na vida de cada participante.<br>
+        Junte-se a nós nesta jornada emocionante enquanto exploramos o vasto e dinâmico mundo da tecnologia através do Programa Trilhas!</p>
+        <button><a href="#fieldset2" class="ibm-plex-sans-bold">Próximo</a></button>
+      </fieldset>
+    </div>
+    
+    <div id="fieldset2">
+      <fieldset>
+        <form action="cadastro.php" method="post">
+            <!-- Seu formulário aqui -->
+            <fieldset>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" required>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" required>
+                <label for="telefone">Telefone de Contato:</label>
+                <input type="tel" name="telefone" id="telefone" required>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+            </fieldset>
+        </form>
+        <nav>
+            <button><a href="#fieldset1" class="ibm-plex-sans-bold">Anterior</a></button>
+            <button><a href="#fieldset3" class="ibm-plex-sans-bold">Próximo</a></button>
+        </nav>
+      </fieldset>
+    </div>
+
+    <div id="fieldset3">
+      <fieldset>
+        <form action="cadastro.php" method="post">
+          <h2>Termos e Condições de Uso</h2>
+          <p>Bem-vindo aos Termos e Condições de Uso ("Termos") do nosso serviço de inscrição no programa de formação em tecnologia promovido pelo Governo do estado do Maranhão, em parceria com a Secretaria de Ciências, Tecnologia e Inovação (SECTI) e a Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão (FAPEMA).</p>
+      
+          <p>Ao acessar ou utilizar o nosso serviço, você concorda em cumprir estes Termos. Leia atentamente antes de utilizar o serviço.</p>
+      
+          <h3>1. Aceitação dos Termos</h3>
+          <p>Ao acessar ou utilizar o serviço, você concorda em ficar vinculado a estes Termos. Se você não concordar com qualquer parte dos Termos, não utilize o serviço.</p>
+      
+          <h3>2. Uso do Serviço</h3>
+          <p>O serviço permite que os usuários se inscrevam no programa de formação em tecnologia oferecido pelo Governo do estado do Maranhão. Ao utilizar o serviço, você concorda em fornecer informações precisas e atualizadas para a inscrição. Você é responsável por manter a confidencialidade de suas informações de conta.</p>
+      
+          <h3>3. Propriedade Intelectual</h3>
+          <p>Todo o conteúdo disponibilizado através do serviço, incluindo, mas não se limitando a textos, gráficos, logotipos, imagens, vídeos, áudio e outros materiais, são de propriedade exclusiva do Governo do estado do Maranhão, da SECTI e da FAPEMA, ou de seus licenciadores, e estão protegidos por leis de direitos autorais e outras leis de propriedade intelectual aplicáveis.</p>
+      
+          <h3>4. Limitação de Responsabilidade</h3>
+          <p>O serviço é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas. O Governo do estado do Maranhão, a SECTI e a FAPEMA não garantem que o serviço será livre de erros ou interrupções.</p>
+      
+          <h3>5. Alterações nos Termos</h3>
+          <p>Reservamo-nos o direito de modificar estes Termos a qualquer momento. As alterações entrarão em vigor imediatamente após serem publicadas no serviço. O uso continuado do serviço após tais alterações constitui sua aceitação dos novos Termos.</p>
+      
+          <h3>6. Contato</h3>
+          <p>Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em [email ou telefone de contato].</p>
+          <button type="radio">Confirmo</button>
+        </form>
+        <nav>
+            <button><a href="#fieldset2" class="ibm-plex-sans-bold">Anterior</a></button>
+        </nav>
+      </fieldset>
+    </div>
+
+</body>
+</html>
