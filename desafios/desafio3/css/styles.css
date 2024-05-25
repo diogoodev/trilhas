@@ -10,3 +10,158 @@
     --color-tertiary: #F6F6F6;
     --color-quaternary: #B9B9B9;
 }
+body {
+    font-family: 'Do Hyeon', 'Lato', sans-serif;
+    background-color: var(--color-primary);
+    color:var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+/* Estiliza a barra de navegação */
+nav {
+    width: 480px; /* Define a largura da barra de navegação */
+    margin: 0 auto; /* Centraliza a barra de navegação horizontalmente */
+    font-size: 24px;
+  }
+nav ul {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content:center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    flex-direction: row; /* Lay out items in a horizontal row */
+  }
+  
+  /* Estiliza os ícones */
+  nav svg {
+    width: 18px; /* Define a largura dos ícones */
+    height: 18px; /* Define a altura dos ícones */
+  }
+  
+  /* Espaça os itens corretamente */
+  nav li {
+    display: flex; /* Usa flexbox para alinhar os ícones */ 
+    margin-right: 10px; /* Adiciona uma margem direita de 10px entre os itens */
+  }
+  /* Espaça os itens corretamente */
+nav li a, .icon {
+    margin-right: 10px; /* Adiciona uma margem direita de 10px entre os itens */
+  }
+ 
+  
+  /* Remove a margem do último item */
+  nav li:last-child {
+    margin-right: 0;
+  }
+
+  nav ul li a {
+    position: relative; /* Position the links relatively */
+  }
+  
+  nav ul li a:after {
+    content: ''; /* Create an empty element after each link */
+    position: absolute; /* Position the element absolutely */
+    width: 0; /* Set the initial width to 0 */
+    height: 2px; /* Set the height of the underline */
+    bottom: 0; /* Position the underline at the bottom of the link */
+    left: 0; /* Position the underline at the left of the link */
+    background-color: var(--color-secondary); /* Set the color of the underline */
+    transition: width 0.3s ease-in-out; /* Create a smooth transition for the underline */
+  }
+  
+  nav ul li a:hover:after {
+    width: 100%; /* Set the width of the underline to 100% on hover */
+  }
+  
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+    background-color: transparent; /* Remove background color */
+  }
+
+  p{
+    font-family: lato;
+    color: var(--color-tertiary);
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+
+  }
+  
+  .text-container {
+    width: 50%; /* Define a largura da coluna de texto */
+  }
+  
+  .image-container {
+    width: 25vw; /* Set the width of the image container to 50% of the viewport width *//* Set the height of the image container to 50% of the viewport height */
+  }
+  
+  img {
+    width: 100%; /* Set the width of the image to 100% of the image container */
+    height: 100%; /* Set the height of the image to 100% of the image container */
+  }
+  
+  h1 {
+    font-size: 2em; /* Define o tamanho da fonte do título */
+  }
+  
+  p {
+    font-size: 1.2em; /* Define o tamanho da fonte do parágrafo */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adiciona um espaço entre os botões */
+  }
+  
+  .github-button,
+  .linkedin-button {
+    width: 50%;
+    padding: 10px 20px; /* Define o espaçamento interno dos botões */
+    border: 1px solid var(--color-secondary); /* Define a borda dos botões */
+    border-radius: 5px; /* Define o raio de arredondamento dos botões */
+    text-decoration: none; /* Remove o sublinhado dos botões */
+    color: var(--color-tertiary); /* Define a cor do  texto dos botões */
+  }
+  
+  button:hover {
+    background-color: var(--color-secondary); /* Change the background color on hover */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Scale the button down on press */
+  }
+  
+
+  .text-container h1 {
+    font-size: 1.5rem; /* Reduce the font size */
+    display: flex; /* Display the h1 element as a flexbox */
+    align-items: center; /* Vertically center the text */
+  }
+  
+  .text-container h1:first-child {
+    color: white; /* Set the color of the first name to white */
+  }
+  
+  .text-container h1:last-child {
+    color: var(--color-secondary); /* Set the color of the last name to the secondary color */
+  }
+  footer {
+    color: var(--color-quaternary);
+    padding: 10px;
+    text-align: center;
+  }
+  .rodape__logo{
+    height: 8vh;
+  }
