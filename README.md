@@ -21,4 +21,6 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 ## DESAFIO 2
 - [Desafio 2](desafios/desafio2/README.md)
 
-## Semana #6
+## DESAFIO 3
+- [Desafio 3](desafios/desafio3/README.md)
+
