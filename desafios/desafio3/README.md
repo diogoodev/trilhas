@@ -14,6 +14,7 @@ Como executar o projeto
 
     Clone o repositório para sua máquina local.
     Abra o arquivo index.html em um navegador da web.
+    ou [clique aqui](index.html)
 
 Contribuição
 
