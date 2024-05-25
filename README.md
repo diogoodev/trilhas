@@ -22,5 +22,5 @@ Este repositório contém os exercicios e suas resoluções feitos por mim duran
 - [Desafio 2](desafios/desafio2/README.md)
 
 ## DESAFIO 3
-- [Desafio 3](desafios/desafio3/README.md)
+- [Desafio 3](desafios/desafio3)
 
